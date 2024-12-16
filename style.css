@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  background-image: url(./images/Line@2x.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0 auto;
+  padding: 0;
+}
+.h-100vh {
+  height: 100vh;
+}
+.bg-img {
+  background-image: url(images/Mask\ group.png);
+}
+footer {
+  background-color: #ff9257;
+}
+.btnclr {
+  background: #2f584e;
+}
+h1 {
+  font-family: "Nunito", sans-serif;
+}
+.thirdImg {
+  border-radius: 120px 10px 10px 120px;
+}
+.fourth {
+  border-radius: 17px 217px 17px 17px;
+}
+
+.sixth {
+  border-radius: 16px;
+}
+.imageAlign {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  width: 80%;
+}
+.buttonClr{
+  color: #ff9257;
+
+}
+.btnclr:hover{
+  background: #ff9257;
+}
+.border-start{
+  border-left: var(--bs-border-width) var(--bs-border-style) #F7BE2C !important;
+  border-width: 4px !important;
+}
